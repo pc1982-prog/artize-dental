@@ -1,0 +1,88 @@
+import { Treatment } from "./types";
+
+export const treatments: Treatment[] = [
+  {
+    name: "Dental Implants",
+    slug: "dental-implants",
+    icon: "GiTooth",
+    shortDescription: "Permanent tooth replacement with titanium implants for a natural feel.",
+    category: "Restorative",
+  },
+  {
+    name: "Clear Aligners / Invisalign",
+    slug: "clear-aligners",
+    icon: "GiTeethBrace",
+    shortDescription: "Invisible teeth straightening without traditional metal braces.",
+    category: "Orthodontics",
+  },
+  {
+    name: "Smile Design",
+    slug: "smile-design",
+    icon: "HiSparkles",
+    shortDescription: "Custom digital smile makeovers tailored to your facial aesthetics.",
+    category: "Cosmetic",
+  },
+  {
+    name: "Root Canal Treatment",
+    slug: "root-canal",
+    icon: "FaTooth",
+    shortDescription: "Painless, single-sitting RCT to save your natural tooth.",
+    category: "Endodontics",
+  },
+  {
+    name: "Zirconia Crowns",
+    slug: "zirconia-crowns",
+    icon: "GiCrownCoin",
+    shortDescription: "Metal-free, natural-looking crowns with exceptional durability.",
+    category: "Restorative",
+  },
+  {
+    name: "Ceramic Veneers",
+    slug: "ceramic-veneers",
+    icon: "GiMirrorMirror",
+    shortDescription: "Ultra-thin shells to reshape, whiten, and perfect your smile.",
+    category: "Cosmetic",
+  },
+  {
+    name: "Orthodontic Braces",
+    slug: "orthodontic-braces",
+    icon: "GiTeethBrace",
+    shortDescription: "Traditional and modern braces for precise teeth alignment.",
+    category: "Orthodontics",
+  },
+  {
+    name: "All-on-4 / All-on-6",
+    slug: "all-on-4-6",
+    icon: "GiTooth",
+    shortDescription: "Full-arch restoration with just 4 or 6 implants in a single day.",
+    category: "Restorative",
+  },
+  {
+    name: "Laser Gum Surgery",
+    slug: "laser-gum-surgery",
+    icon: "GiLaserSparks",
+    shortDescription: "Minimally invasive gum treatment with advanced diode lasers.",
+    category: "Periodontics",
+  },
+  {
+    name: "CAD/CAM Restorations",
+    slug: "cad-cam",
+    icon: "HiCpuChip",
+    shortDescription: "Computer-designed, precision-milled restorations in fewer visits.",
+    category: "Restorative",
+  },
+  {
+    name: "Composite Bondings",
+    slug: "composite-bondings",
+    icon: "GiDroplets",
+    shortDescription: "Tooth-colored bonding to repair chips, gaps, and discoloration.",
+    category: "Cosmetic",
+  },
+  {
+    name: "General Dentistry",
+    slug: "general-dentistry",
+    icon: "FaUserMd",
+    shortDescription: "Cleanings, fillings, check-ups, and preventive dental care.",
+    category: "General",
+  },
+];
